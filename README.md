@@ -1,10 +1,14 @@
 # Snowman Capstone
 ### Introduction
 The goal of this project is to predict when and where it would be possible to build a snowman.  There are four notebook files.
+
 Snowman_Prediction.ipynb - This file reads in all of the raw weather station data, filters and cleans the data, builds a temperature and snow depth model for each weather station, and generates predictions.
+
 GeoPandas_with_Date_Picker.ipynb - This file reads in a snowman prediction file and generates an interactive visualization where the user can choose a date and the displayed map updates with the data for the date chosen.
+
 Seasonal_Decomp_and_Model_Dev.ipynb - This file does a 'deep dive' into the data of a single weather station to look at the seasonal characteristics of the data. The development of the models and the choosing of hyperparameters used throughout the project was also done using iterations and variations of this notebook.
 Model_Performance.ipynb - This file reads in two subsets of data - actual data for 2024 and predictions for 2024. These sets of data are compared to one another to analyze the performance of the modeling procedure in the Snowman_Prediction notebook.
+
 All of the code within this project was run on my home computer using VS Code. Be sure to have GeoPandas, Ipython, and ipywidgets installed.  A full list of necessary libraries can be found in the requirements.txt file.
 ### Setup
 1. Create a folder (henceforth referred to as the main folder) to place the four notebook files. 
