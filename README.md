@@ -7,6 +7,7 @@ Snowman_Prediction.ipynb - This file reads in all of the raw weather station dat
 GeoPandas_with_Date_Picker.ipynb - This file reads in a snowman prediction file and generates an interactive visualization where the user can choose a date and the displayed map updates with the data for the date chosen.
 
 Seasonal_Decomp_and_Model_Dev.ipynb - This file does a 'deep dive' into the data of a single weather station to look at the seasonal characteristics of the data. The development of the models and the choosing of hyperparameters used throughout the project was also done using iterations and variations of this notebook.
+
 Model_Performance.ipynb - This file reads in two subsets of data - actual data for 2024 and predictions for 2024. These sets of data are compared to one another to analyze the performance of the modeling procedure in the Snowman_Prediction notebook.
 
 All of the code within this project was run on my home computer using VS Code. Be sure to have GeoPandas, Ipython, and ipywidgets installed.  A full list of necessary libraries can be found in the requirements.txt file.
@@ -39,9 +40,11 @@ This notebook requires two files. The first file contains the actual observed va
 
 The second file was derived from a run through the entire process where I truncated the observed data to end at 12/31/2023 and tasked the program with predicting the values for 2024. This second file contains the predicted values for 'can I build a snowman' for the year 2024 and can be found in my Google drive at https://drive.google.com/file/d/1mqtNkfshZ2VaAlFS5s29s7JloB_WIbZN/view?usp=sharing.
 
-In this notebook, I combine the data to get statistics about the performance of my models. Finally, there is a visualization to see on the map where and when I have true positives, true negatives, false positives, and false negatives.  2/14/24 is a good date to pick to see a few different things.  In the west, there are a lot of true positives, but almost randomly mixed with some misses, more false positives in the north switching to more false negatives as you go south.  
+In this notebook, I combine the data from those files to get statistics about the performance of my models. Finally, there is a visualization to see on the map where and when I have true positives, true negatives, false positives, and false negatives.  2/14/24 is a good date to pick to see a few different things.  
+
+In the west, there are a lot of true positives, but almost randomly mixed with some misses, more false positives in the north switching to more false negatives as you go south.  
 
 Then in the northern midwest, a lot of false positives.  Looking up weather records, it appears temperatures were often in the right range, but there just wasn't the expected snow depth at that time in the entire region. 
 
-Finally, in the northeast, a cluster of true positives, but my predictions 'missed' where the some of the snow would be, showing a lot of false positives surrounding the true positives, and then a whole cluster of false negatives a little bit to the south.
+Finally, in the northeast, you can see a cluster of true positives, but my predictions 'missed' where the some of the snow would be, showing a lot of false positives surrounding the true positives, and then a whole cluster of false negatives a little bit to the south.
 
