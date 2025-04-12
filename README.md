@@ -10,11 +10,11 @@ Seasonal_Decomp_and_Model_Dev.ipynb - This file does a 'deep dive' into the data
 
 Model_Performance.ipynb - This file reads in two subsets of data - actual data for 2024 and predictions for 2024. These sets of data are compared to one another to analyze the performance of the modeling procedure in the Snowman_Prediction notebook.
 
-All of the code within this project was run on my home computer using VS Code. Be sure to have GeoPandas, Ipython, and ipywidgets installed.  A full list of necessary libraries can be found in the requirements.txt file.
 ### Setup
 1. Create a folder (henceforth referred to as the main folder) to place the four notebook files. 
 2. Create subfolders in the main folder titled 'AggregatedData', 'CleanedData', 'ForecastDailyData', 'ForecastData', and 'RawData'.
 3. Unzip the contents of s_18mr25.zip into the main folder. The .shp file within is used for the geographic visualizations.
+4. Be sure to have GeoPandas, Ipython, and ipywidgets installed.  A full list of necessary libraries can be found in the requirements.txt file. All of the code within this project was run on my home computer using VS Code. 
 ### Snowman_Prediction
 To run through the entire process yourself, I have set up the code and some files for a small example using the weather stations around the town of Newberry, Michigan.  To do so, unzip the contents of the 'Raw Data - Newberry.zip' file into the 'RawData' folder. These files are the raw data from the NOAA website for the 19 weather stations in the small latitude/longitude box around Newberry.  By the end of the process, only two of these weather stations will remain.
 
