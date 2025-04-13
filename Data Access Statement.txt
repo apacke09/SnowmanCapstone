@@ -1,0 +1,6 @@
+The raw data for this project came from the NOAA website, which is a United States federal government entity.  There are many great interfaces on their website to get any specific weather data you are looking for.  A good example is here - https://www.ncei.noaa.gov/maps/daily-summaries/.
+
+On the page https://www.noaa.gov/our-mission-values-and-vision, part of their mission statement is to understand and predict weather and "to share that knowledge and information with others".  In line with these values, all of this information is accessible and provided "for use by public, private, and academic sectors".
+
+In order to grab all of the data relevant for my project all at once, however, the directories are accessible and a file is available there that has it all - https://www.ncei.noaa.gov/data/daily-summaries/archive/daily-summaries-latest.tar.gz.
+
