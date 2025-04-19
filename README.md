@@ -46,5 +46,5 @@ In the west, there are a lot of true positives, but almost randomly mixed with s
 
 Then in the northern midwest, a lot of false positives.  Looking up weather records, it appears temperatures were often in the right range, but there just wasn't the expected snow depth at that time in the entire region. 
 
-Finally, in the northeast, you can see a cluster of true positives, but my predictions 'missed' where the some of the snow would be, showing a lot of false positives surrounding the true positives, and then a whole cluster of false negatives a little bit to the south.
+Finally, in the northeast, you can see a cluster of true positives, but my predictions 'missed' where some of the snow would be, showing a lot of false positives surrounding the true positives, and then a whole cluster of false negatives a little bit to the south.
 
